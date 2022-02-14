@@ -20,9 +20,6 @@ AllCops:
     - 'db/migrate/20220128234636_devise_token_auth_create_users.rb'
     - 'db/migrate/20220120124837_create_profiles.rb'
 
-inherit_from:
-  - .rubocop_airbnb.yml
-
 Layout/LineLength:
   Max: 150
 
